@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="H5测试套件" verbose="1">
+    <test name="各部分简单测试">
+        <classes>
+            <class name="com.zhuying.testH5.TestLogin"/>
+            <!--<class name="testH5.TestLoginKey"/>-->
+            <!--<class name="testH5.TestPayKey"/>-->
+        </classes>
+    </test>
+</suite>

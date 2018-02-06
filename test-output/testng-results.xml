@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="H5测试套件" duration-ms="21258" started-at="2018-01-03T03:16:47Z" finished-at="2018-01-03T03:17:09Z">
+    <groups>
+    </groups>
+    <test name="各部分简单测试" duration-ms="21258" started-at="2018-01-03T03:16:47Z" finished-at="2018-01-03T03:17:09Z">
+      <class name="com.zhuying.testH5.TestLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.zhuying.testH5.TestLogin@5700d6b1]" name="setUp" is-config="true" duration-ms="5595" started-at="2018-01-03T11:16:47Z" finished-at="2018-01-03T11:16:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhuying.testH5.TestLogin@5700d6b1]" name="testLogin" duration-ms="4516" started-at="2018-01-03T11:16:55Z" data-provider="userTable" finished-at="2018-01-03T11:16:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhuying.testH5.TestLogin@5700d6b1]" name="testLogin" duration-ms="1838" started-at="2018-01-03T11:16:59Z" data-provider="userTable" finished-at="2018-01-03T11:17:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zhuying]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhuying.testH5.TestLogin@5700d6b1]" name="testLogin" duration-ms="1843" started-at="2018-01-03T11:17:01Z" data-provider="userTable" finished-at="2018-01-03T11:17:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13588057343]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhuying.testH5.TestLogin@5700d6b1]" name="testLogin" duration-ms="1873" started-at="2018-01-03T11:17:03Z" data-provider="userTable" finished-at="2018-01-03T11:17:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13566747752]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zhuying]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhuying.testH5.TestLogin@5700d6b1]" name="testLogin" duration-ms="1829" started-at="2018-01-03T11:17:05Z" data-provider="userTable" finished-at="2018-01-03T11:17:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13588057343]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[失败]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zhuying.testH5.TestLogin@5700d6b1]" name="testLogin" duration-ms="1857" started-at="2018-01-03T11:17:07Z" data-provider="userTable" finished-at="2018-01-03T11:17:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13588057343]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zhuying]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[成功]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.zhuying.testH5.TestLogin@5700d6b1]" name="tearDown" is-config="true" duration-ms="57" started-at="2018-01-03T11:17:09Z" finished-at="2018-01-03T11:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.zhuying.testH5.TestLogin -->
+    </test> <!-- 各部分简单测试 -->
+  </suite> <!-- H5测试套件 -->
+</testng-results>
